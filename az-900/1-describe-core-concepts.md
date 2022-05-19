@@ -16,6 +16,32 @@ It's the delivery of computing services over the internet, which is otherwise kn
     -   Speech recognition and other cognitive services that help make your application stand out from the crowd.
     -   Analytics services that deliver telemetry data from your software and devices.
 
+# Cloud Models
+
+1. Public cloud
+
+    - Services are offered over the public internet and **available to anyone**.
+    - Cloud resources are owned and operated by a third-party cloud service provider.
+    - Cloud Resources are delivered over the internet.
+    - No capital expenditures to scale up.
+    - Applications can be quickly provisioned and de-provisioned.
+    - Organizations pay only for what they use.
+
+1. Private cloud
+
+    - Computing resources are **used exclusively by users from one business or organization**.
+    - Can be physically located at your organization's on-site (on-premises) datacenter, or it can be hosted by a third-party service provider.
+    - Hardware must be purchased for start-up and maintenance.
+    - Organizations have complete control over resources and security.
+    - Organizations are responsible for hardware maintenance and updates.
+
+1. Hybrid cloud
+
+    - A computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them.
+    - Provides the most flexibility.
+    - Organizations determine where to run their applications.
+    - Organizations control security, compliance, or legal requirements.
+
 # Azure
 
 ## What?
