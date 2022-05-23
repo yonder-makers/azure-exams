@@ -6,3 +6,4 @@ This should help you prepare for [Exam AZ-900](https://docs.microsoft.com/en-us/
 1. Architectural Components
     1. [Resource and Access Management](./2-architectural-components-management.md)
     1. [Azure Regions](./3-architectural-components-regions.md)
+1. [Azure Services](./services/Readme.md)

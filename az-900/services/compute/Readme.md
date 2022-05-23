@@ -11,13 +11,19 @@ Features:
 -   You will pay for resources only as long as you are using them.
     These are services that offer Computational Power (CPU & RAM).
 
-1. Azure Virtual Machines
+## Which?
+
+1. [Azure Virtual Machines](./1-azure-virtual-machines.md)
 
     Windows or Linux virtual machines (VMs) hosted in Azure.
 
-1. Azure Virtual Machine Scale Sets
+1. [Azure Virtual Machine Scale Sets](./2-virtual-machine-scale-sets.md)
 
     Scaling for Windows or Linux VMs hosted in Azure.
+
+1. [Azure Batch](./3-azure-batch.md)
+
+    Managed service for parallel and high-performance computing applications.
 
 1. Azure Kubernetes Service
 
@@ -26,10 +32,6 @@ Features:
 1. Azure Service Fabric
 
     Distributed systems platform that runs in Azure or on-premises.
-
-1. Azure Batch
-
-    Managed service for parallel and high-performance computing applications.
 
 1. Azure Container Instances
 
