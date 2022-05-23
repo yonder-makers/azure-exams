@@ -13,23 +13,23 @@ A resource group is a logical container for resources deployed on Azure.
 
 ### What?
 
-    - All resources must be in a resource group, and a resource can only be a member of a single resource group.
-    - Resource groups can't be nested.
-    - Before any resource can be provisioned, you need a resource group for it to be placed in.
-    - Many resources can be moved between resource groups with some services having specific limitations or requirements to move.
-    - [Resource group limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits)
-    - You can group/organize multiple subscriptions into invoice sections.
-        - Each invoice section is a line item on the invoice that shows the charges incurred that month.
-    - **Billing Profiles**
-        - Each billing profile has its **own monthly invoice and payment method**.
-        - You can set up multiple Billing Profiles in the same billing account.
-          ![Billing structure](https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/billing-structure-overview-2c81a8ad.png)
+-   All resources must be in a resource group, and a resource can only be a member of a single resource group.
+-   Resource groups can't be nested.
+-   Before any resource can be provisioned, you need a resource group for it to be placed in.
+-   Many resources can be moved between resource groups with some services having specific limitations or requirements to move.
+-   [Resource group limits](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits)
+-   You can group/organize multiple subscriptions into invoice sections.
+    -   Each invoice section is a line item on the invoice that shows the charges incurred that month.
+-   **Billing Profiles**
+    -   Each billing profile has its **own monthly invoice and payment method**.
+    -   You can set up multiple Billing Profiles in the same billing account.
+        ![Billing structure](https://docs.microsoft.com/en-us/learn/azure-fundamentals/azure-architecture-fundamentals/media/billing-structure-overview-2c81a8ad.png)
 
 ### Why?
 
-    - **Logical grouping**: So you can provide order and organization to resources you create in Azure.
-    - **Life cycle**: If you delete a resource group, all resources contained within it are also deleted
-    - **Authorization**: Resource groups are also a scope for applying role-based access control (RBAC) permissions.
+-   **Logical grouping**: So you can provide order and organization to resources you create in Azure.
+-   **Life cycle**: If you delete a resource group, all resources contained within it are also deleted
+-   **Authorization**: Resource groups are also a scope for applying role-based access control (RBAC) permissions.
 
 ## Azure Subscriptions
 
