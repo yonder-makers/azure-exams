@@ -4,226 +4,202 @@
 
 1. [Azure compute services](./compute/Readme.md)
 
-## 2. Networking
+1. Networking
 
-Linking compute resources and providing access to applications is the key function of Azure networking.
+    Linking compute resources and providing access to applications is the key function of Azure networking.
 
-1. Azure Virtual Network
+    1. Azure Virtual Network
 
-    Connects VMs to incoming virtual private network (VPN) connections.
+        Connects VMs to incoming virtual private network (VPN) connections.
 
-1. Azure Load Balancer
+    1. Azure Load Balancer
 
-    Balances inbound and outbound connections to applications or service endpoints.
+        Balances inbound and outbound connections to applications or service endpoints.
 
-1. Azure Application Gateway
+    1. Azure Application Gateway
 
-    Optimizes app server farm delivery while increasing application security.
+        Optimizes app server farm delivery while increasing application security.
 
-1. Azure VPN Gateway
+    1. Azure VPN Gateway
 
-    Accesses Azure Virtual Networks through high-performance VPN gateways.
+        Accesses Azure Virtual Networks through high-performance VPN gateways.
 
-1. Azure DNS
+    1. Azure DNS
 
-    Provides ultra-fast DNS responses and ultra-high domain availability.
+        Provides ultra-fast DNS responses and ultra-high domain availability.
 
-1. Azure Content Delivery Network
+    1. Azure Content Delivery Network
 
-    Delivers high-bandwidth content to customers globally.
+        Delivers high-bandwidth content to customers globally.
 
-1. Azure DDoS Protection
+    1. Azure DDoS Protection
 
-    Protects Azure-hosted applications from distributed denial of service (DDOS) attacks.
+        Protects Azure-hosted applications from distributed denial of service (DDOS) attacks.
 
-1. Azure Traffic Manager
+    1. Azure Traffic Manager
 
-    Distributes network traffic across Azure regions worldwide.
+        Distributes network traffic across Azure regions worldwide.
 
-1. Azure ExpressRoute
+    1. Azure ExpressRoute
 
-    Connects to Azure over high-bandwidth dedicated secure connections.
+        Connects to Azure over high-bandwidth dedicated secure connections.
 
-1. Azure Network Watcher
+    1. Azure Network Watcher
 
-    Monitors and diagnoses network issues by using scenario-based analysis.
+        Monitors and diagnoses network issues by using scenario-based analysis.
 
-1. Azure Firewall
+    1. Azure Firewall
 
-    Implements high-security, high-availability firewall with unlimited scalability.
+        Implements high-security, high-availability firewall with unlimited scalability.
 
-1. Azure Virtual WAN
+    1. Azure Virtual WAN
 
-    Creates a unified wide area network (WAN) that connects local and remote sites.
+        Creates a unified wide area network (WAN) that connects local and remote sites.
 
-## 3. Storage
+1. Storage
 
-1. Azure Blob storage
+    1. Azure Blob storage
 
-    Storage service for very large objects, such as video files or bitmaps.
+        Storage service for very large objects, such as video files or bitmaps.
 
-1. Azure File storage
+    1. Azure File storage
 
-    File shares that can be accessed and managed like a file server.
+        File shares that can be accessed and managed like a file server.
 
-1. Azure Queue storage
+    1. Azure Queue storage
 
-    A data store for queuing and reliably delivering messages between applications.
+        A data store for queuing and reliably delivering messages between applications.
 
-1. Azure Table storage
+    1. Azure Table storage
 
-    Table storage is a service that stores non-relational structured data (also known as structured NoSQL data) in the cloud, providing a key/attribute store with a schemaless design.
+        Table storage is a service that stores non-relational structured data (also known as structured NoSQL data) in the cloud, providing a key/attribute store with a schemaless design.
 
-These services all share several common characteristics:
+    These services all share several common characteristics:
 
--   Durable and highly available with redundancy and replication.
--   Secure through automatic encryption and role-based access control.
--   Scalable with virtually unlimited storage.
--   Managed, handling maintenance and any critical problems for you.
--   Accessible from anywhere in the world over HTTP or HTTPS.
+    - Durable and highly available with redundancy and replication.
+    - Secure through automatic encryption and role-based access control.
+    - Scalable with virtually unlimited storage.
+    - Managed, handling maintenance and any critical problems for you.
+    - Accessible from anywhere in the world over HTTP or HTTPS.
 
-## 4. Mobile
+1. Mobile
 
-Back-end service for Mobile Applications.
-They can have the following features:
+    Back-end service for Mobile Applications.
+    They can have the following features:
 
--   Adding corporate sign-in.
--   Connecting to on-premises resources such as SAP, Oracle, SQL Server, and SharePoint made simple.
--   Offline data synchronization.
--   Connectivity to on-premises data.
--   Broadcasting push notifications.
--   Autoscaling to match business needs.
+    - Adding corporate sign-in.
+    - Connecting to on-premises resources such as SAP, Oracle, SQL Server, and SharePoint made simple.
+    - Offline data synchronization.
+    - Connectivity to on-premises data.
+    - Broadcasting push notifications.
+    - Autoscaling to match business needs.
 
-## 5. Databases
+1. Databases
 
-1. Azure Cosmos DB
+    1. Azure Cosmos DB
 
-    Globally distributed database that supports NoSQL options.
+        Globally distributed database that supports NoSQL options.
 
-1. Azure SQL Database
+    1. Azure SQL Database
 
-    Fully managed relational database with auto-scale, integral intelligence, and robust security.
+        Fully managed relational database with auto-scale, integral intelligence, and robust security.
 
-1. Azure Database for MySQL
+    1. Azure Database for MySQL
 
-    Fully managed and scalable MySQL relational database with high availability and security.
+        Fully managed and scalable MySQL relational database with high availability and security.
 
-1. Azure Database for PostgreSQL
+    1. Azure Database for PostgreSQL
 
-    Fully managed and scalable PostgreSQL relational database with high availability and security.
+        Fully managed and scalable PostgreSQL relational database with high availability and security.
 
-1. SQL Server on Azure Virtual Machines
+    1. SQL Server on Azure Virtual Machines
 
-    Service that hosts enterprise SQL Server apps in the cloud.
+        Service that hosts enterprise SQL Server apps in the cloud.
 
-1. Azure Synapse Analytics
+    1. Azure Synapse Analytics
 
-    Fully managed data warehouse with integral security at every level of scale at no extra cost.
+        Fully managed data warehouse with integral security at every level of scale at no extra cost.
 
-1. Azure Database Migration Service
+    1. Azure Database Migration Service
 
-    Service that migrates databases to the cloud with no application code changes.
+        Service that migrates databases to the cloud with no application code changes.
 
-1. Azure Cache for Redis
+    1. Azure Cache for Redis
 
-    Fully managed service caches frequently used and static data to reduce data and application latency.
+        Fully managed service caches frequently used and static data to reduce data and application latency.
 
-1. Azure Database for MariaDB
+    1. Azure Database for MariaDB
 
-    Fully managed and scalable MariaDB relational database with high availability and security.
+        Fully managed and scalable MariaDB relational database with high availability and security.
 
-## 6. Web
+1. [Web](./web/Readme.md)
 
-1. Azure App Service
+1. Internet of Things
 
-    Quickly create powerful cloud web-based apps.
+    1. IoT Central
 
-1. Azure Notification Hubs
+        Fully managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage IoT assets at scale.
 
-    Send push notifications to any platform from any back end.
+    1. Azure IoT Hub
 
-1. Azure API Management
+        Messaging hub that provides secure communications between and monitoring of millions of IoT devices.
 
-    Publish APIs to developers, partners, and employees securely and at scale.
+    1. IoT Edge
 
-1. Azure Cognitive Search
+        Fully managed service that allows data analysis models to be pushed directly onto IoT devices, which allows them to react quickly to state changes without needing to consult cloud-based AI models.
 
-    Deploy this fully managed search as a service.
+1. Big Data
 
-1. Web Apps feature of Azure App Service
+    1. Azure Synapse Analytics
 
-    Create and deploy mission-critical web apps at scale.
+        Run analytics at a massive scale by using a cloud-based enterprise data warehouse that takes advantage of massively parallel processing to run complex queries quickly across petabytes of data.
 
-1. Azure SignalR Service
+    1. Azure HDInsight
 
-    Add real-time web functionalities easily.
+        Process massive amounts of data with managed clusters of Hadoop clusters in the cloud.
 
-## 7. Internet of Things
+    1. Azure Databricks
 
-1. IoT Central
+        Integrate this collaborative Apache Spark-based analytics service with other big data services in Azure.
 
-    Fully managed global IoT software as a service (SaaS) solution that makes it easy to connect, monitor, and manage IoT assets at scale.
+1. AI
 
-1. Azure IoT Hub
+    1. Azure Machine Learning Service
 
-    Messaging hub that provides secure communications between and monitoring of millions of IoT devices.
+        A cloud-based environment you can use to develop, train, test, deploy, manage, and track machine learning models. It can auto-generate a model and auto-tune it for you. It will let you start training on your local machine, and then scale out to the cloud.
 
-1. IoT Edge
+    1. Azure ML Studio
 
-    Fully managed service that allows data analysis models to be pushed directly onto IoT devices, which allows them to react quickly to state changes without needing to consult cloud-based AI models.
+        Collaborative visual workspace where you can build, test, and deploy machine learning solutions by using prebuilt machine learning algorithms and data-handling modules.
 
-## 8. Big Data
+    1. Cognitive Services
 
-1. Azure Synapse Analytics
+        1. Vision
 
-    Run analytics at a massive scale by using a cloud-based enterprise data warehouse that takes advantage of massively parallel processing to run complex queries quickly across petabytes of data.
+            Use image-processing algorithms to smartly identify, caption, index, and moderate your pictures and videos.
 
-1. Azure HDInsight
+        1. Speech
 
-    Process massive amounts of data with managed clusters of Hadoop clusters in the cloud.
+            Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.
 
-1. Azure Databricks
+        1. Knowledge mapping
 
-    Integrate this collaborative Apache Spark-based analytics service with other big data services in Azure.
+            Map complex information and data to solve tasks such as intelligent recommendations and semantic search.
 
-## 9. AI
+        1. Bing Search
 
-1. Azure Machine Learning Service
+            Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.
 
-    A cloud-based environment you can use to develop, train, test, deploy, manage, and track machine learning models. It can auto-generate a model and auto-tune it for you. It will let you start training on your local machine, and then scale out to the cloud.
+        1. Natural Language processing
 
-1. Azure ML Studio
+            Allow your apps to process natural language with pre-built scripts, evaluate sentiment, and learn how to recognize what users want.
 
-    Collaborative visual workspace where you can build, test, and deploy machine learning solutions by using prebuilt machine learning algorithms and data-handling modules.
+1. DevOps
 
-1. Cognitive Services
+    1. Azure DevOps
 
-    1. Vision
+        Use development collaboration tools such as high-performance pipelines, free private Git repositories, configurable Kanban boards, and extensive automated and cloud-based load testing. Formerly known as Visual Studio Team Services.
 
-        Use image-processing algorithms to smartly identify, caption, index, and moderate your pictures and videos.
+    1. Azure DevTest Labs
 
-    1. Speech
-
-        Convert spoken audio into text, use voice for verification, or add speaker recognition to your app.
-
-    1. Knowledge mapping
-
-        Map complex information and data to solve tasks such as intelligent recommendations and semantic search.
-
-    1. Bing Search
-
-        Add Bing Search APIs to your apps and harness the ability to comb billions of webpages, images, videos, and news with a single API call.
-
-    1. Natural Language processing
-
-        Allow your apps to process natural language with pre-built scripts, evaluate sentiment, and learn how to recognize what users want.
-
-## 10. DevOps
-
-1. Azure DevOps
-
-    Use development collaboration tools such as high-performance pipelines, free private Git repositories, configurable Kanban boards, and extensive automated and cloud-based load testing. Formerly known as Visual Studio Team Services.
-
-1. Azure DevTest Labs
-
-    Quickly create on-demand Windows and Linux environments to test or demo applications directly from deployment pipelines.
+        Quickly create on-demand Windows and Linux environments to test or demo applications directly from deployment pipelines.
